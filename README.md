@@ -74,17 +74,5 @@ The project was completed on 30th May, 2024.
 
 ## Frontend Functionality
 
-### JavaScript Functions
-
-- **clearSessionStorage** - Clears specific session storage items.
-- **showToast** - Displays a toast notification using Toastr.
-- **validateUser** - Validates user credentials via API.
-- **validateRecipient** - Validates recipient details via API.
-- **escapeHtml** - Escapes HTML characters in text.
-- **convertNewlinesToBreaks** - Converts newlines to HTML line breaks.
-- **getDecryptedData** - Fetches decrypted data from the server.
-
-### Event Listeners
-
 - **User Actions** - Handles user login, logout, profile updates, and message sending.
 - **Chat Interface** - Manages chat UI updates, message fetching, and user interactions.
