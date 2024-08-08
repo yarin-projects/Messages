@@ -1,0 +1,1 @@
+clearSessionStorage(true);

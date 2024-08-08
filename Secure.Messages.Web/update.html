@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Account Details - SecureMessages</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" defer></script>
+    <script src="/js/utils.js" defer></script>
+    <script src="/js/update.js" defer></script>
+  </head>
+
+  <body>
+    <button id="goBackBtn" class="button"></button>
+    <div class="container">
+      <h1>Update Account Details</h1>
+
+      <!-- Update Username Section -->
+      <div class="form-group">
+        <label for="oldUserName">Current Name:</label>
+        <input type="text" id="oldUserName" name="oldUserName" disabled /><br />
+
+        <label for="newUserName">New Name:</label>
+        <input type="text" id="newUserName" name="newUserName" required /><br />
+        <button id="updateUserNameBtn" class="btn">Update Username</button>
+      </div>
+      <br /><br />
+
+      <!-- Update Password Section -->
+      <div class="form-group">
+        <label for="oldPassword">Current Password:</label>
+        <input type="text" id="oldPassword" name="oldPassword" disabled /> <br />
+
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required /><br />
+
+        <button id="updatePasswordBtn" class="btn">Update Password</button>
+      </div>
+    </div>
+  </body>
+</html>
