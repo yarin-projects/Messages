@@ -4,7 +4,7 @@
 
 The Secure Messages API is a web application designed to facilitate secure messaging between users. It supports user authentication, message sending and receiving, and admin functionalities to manage users and view decrypted data. The API is built using ASP.NET Core and Entity Framework Core with a SQLite database, and the frontend is implemented with HTML, CSS, and JavaScript.
 
-The project was completed on 30th May, 2024.
+The project was completed on May, 2024.
 
 ## Features
 
